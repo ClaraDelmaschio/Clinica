@@ -1,0 +1,130 @@
+@import url(https://github.com/etunni/gilda-display);
+body{
+    overflow-x: hidden;
+
+}
+*{
+
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+}
+#contato{
+    font-size: 20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px;
+    gap: 10px;
+    font-family: gilda
+}
+
+#cabeçalho{
+    border-top: 1px solid black;
+    font-size: 24px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 15px;
+    gap: 80px; 
+    border-bottom: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#home{
+    border-bottom: 2px solid black;
+}
+
+#aclinica:hover{
+    border-bottom: 2px solid black;
+}
+#entrar:hover{
+    border-bottom: 2px solid black;
+}
+
+#agendar:hover{
+    border-bottom: 2px solid black;
+}
+.imgmuda{
+    padding: 50px;
+    padding-left: 50px;
+    width: 100%;
+    height: 670px;
+
+    
+}
+
+#quadrado1{
+    background-color:#F0EFED ;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px 0px 30px 0px;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+#texto1{
+    padding: 20px;
+}
+
+
+#quadrado2{
+    background-color:#F0EFED ;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px 0px 30px 0px;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#quadrado3{
+    background-color:#F0EFED ;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px 0px 30px 0px;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#quadrado4{
+    background-color:#F0EFED ;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px 0px 30px 0px;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+#informaçoes{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 30px; 
+}
+#parte4{
+    padding: 100px;
+    font-size: 50px;
+
+}
+#especialidades{
+    margin-left: 480px;
+}
+
+#especi1{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+#especi2{
+    display: flex;
+    justify-content: center;
+    gap: 150px
+}
