@@ -1,0 +1,53 @@
+*{
+
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+}
+#contato{
+    font-size: 20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px;
+    gap: 10px;
+    font-family: gilda;
+ 
+}
+#cabeçalho{
+    border-top: 1px solid black;
+    font-size: 24px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 15px;
+    gap: 80px; 
+    border-bottom: 1px solid black;
+    font-family: Gilda;
+}
+#home:hover{
+    border-bottom: 2px solid black;
+}
+
+#aclinica{
+    border-bottom: 2px solid black;
+}
+#entrar:hover{
+    border-bottom: 2px solid black;
+}
+
+#agendar:hover{
+    border-bottom: 2px solid black;
+}
+
+#logo2{
+    padding-top: 200px;
+    padding-left: 700px;
+}
+#clinica{ 
+    margin-top: 50px;
+    padding-left: 670px;
+    font-size: 50px;
+    color: black;
+}
