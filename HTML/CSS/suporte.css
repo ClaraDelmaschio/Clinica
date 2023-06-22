@@ -1,0 +1,104 @@
+.cabecalho img{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+    font-size: 50px;
+}
+
+.textop2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20px;
+    font-size: 50px;
+}
+
+ 
+ .textop3{
+    display: flex;
+    line-height: 20px;
+    font-size: 50px;
+    text-align: center;
+ }
+
+.suporte{
+    font-family: 'Gilda Display', serif;
+    margin-left: 620px;
+    font-size: 25px;
+    margin-top: 150px;
+}
+.fone{
+    margin-top: -60px;
+    margin-left: 830px;
+    width: 20px;
+    height: 20px;
+}
+.suporte2{
+    font-family: 'Gilda Display', serif;
+    font-size: 30px;
+    margin-left: 580px;
+
+}
+
+#boxwhatsapp{
+    width:280px;
+    height:40px;
+    background-color:#8EC3CB;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Gilda Display', serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 620px;
+    }
+    .oi{
+       
+    margin-left: 20px;
+}
+
+#boxtelefone{
+    width:280px;
+    height:40px;
+    background-color:#8EC3CB;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Gilda Display', serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 620px;
+    }
+
+.oii{
+    margin-left: 37px;
+}
+
+.oiiii{
+    margin-left: 15px;
+}
+
+#boxemail{
+    width:280px;
+    height:40px;
+    background-color:#8EC3CB;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Gilda Display', serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 620px;
+    }
+
+.oiii{
+    margin-left: 15px;
+}

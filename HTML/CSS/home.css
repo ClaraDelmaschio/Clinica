@@ -17,7 +17,8 @@ body{
     align-items: center;
     padding: 14px;
     gap: 10px;
-    font-family: gilda
+    font-family: gilda;
+    margin-top: -15px;
 }
 
 #cabeçalho{
@@ -30,6 +31,7 @@ body{
     gap: 80px; 
     border-bottom: 1px solid black;
     font-family: Gilda;
+   margin-top: -11px; 
 }
 
 #home{
