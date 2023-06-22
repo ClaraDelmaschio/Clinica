@@ -1,2 +1,2 @@
 # Clinica
-https://claradelmaschio.github.io/Clinica/homepage.html
+https://claradelmaschio.github.io/Clinica/HTML/homepage.html
