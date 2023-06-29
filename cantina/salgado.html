@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Salgados</title>
+    <link rel="stylesheet" href="salgado.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= família= Belanosima & display=swap" rel="stylesheet">
+    <style>
+        .navbar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .navbar-icon {
+          position: relative;
+        }
+        .navbar-icon button {
+          background: none;
+          border: none;
+          cursor: pointer;
+          padding: 0;
+        }
+        .icon-bar {
+          display: block;
+          width: 25px;
+          height: 3px;
+          background-color: #770F1A;
+          margin: 5px 0;
+        }
+        .navbar-options {
+          position: absolute;
+          display: none;
+          padding: 8px;
+          background-color: none;
+          list-style: none;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        .navbar.open .navbar-options {
+          display: flex;
+          justify-content: space-between;
+        
+        }
+        .navbar.open .navbar-options li {
+          text-align: center;
+          margin-right: 100px;
+        }
+      
+        .navbar-options.left {
+          left: 510px;
+          right: auto;
+        }
+      
+        .navbar-options.right {
+          left: auto;
+          right: -100px;
+        }
+        a{
+            font: belanosima;
+          text-decoration: none;
+          color: #770F1A;
+        }
+        li{
+          text-decoration: none;
+         
+        }
+        .pos{
+            position: relative;
+            top: 260px;
+            left: -50px;
+        }
+      </style>
+  
+</head>
+<body>
+    <img id="imgcima" src="imagens/Group 6.png" alt="">
+    <div class="pos">
+        <nav class="navbar">
+            <div class="navbar-icon">
+              <!-- Aqui vai o ícone -->
+              <button>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <ul class="navbar-options left">
+              <!-- Opções à esquerda -->
+              <li><a href="#">H O M E</a></li>
+              <li><a href="#">C A R D Á P I O</a></li>
+            </ul>
+            <ul class="navbar-options right">
+              <!-- Opções à direita -->
+              <li><a href="#">L O C A L I Z A Ç Ã O</a></li>
+              <li><a href="#">C O N T A T O S</a></li>
+            </ul>
+          </nav>
+    </div>
+
+    <div id="quad1">
+        <p id="txt">Salgados</p>
+      </div>
+    </div>
+    <div id="quad2">
+      <p id="txt2">Fritos:</p>
+    </div>
+    <div id="quad2_sec"></div>
+    <div id="quad3">
+      <p id="txt3">Assados:</p>
+    </div>
+    <div id="quad3_sec"></div>
+    <div id="quad4">
+      <p id="txt4">Adicionar Observação:</p>
+    </div>
+    <div id="quad4_sec"></div>
+  </div>
+  <form>
+    <input type="radio" name="option" id="option1" value="tea">
+    <label for="option1">Coxinha</label><br>
+    <input type="radio" name="option" id="option2" value="coffee">
+    <label for="option2">Calabresa</label><br>
+    <input type="radio" name="option" id="option3" value="cats">
+    <label for="option3">Queijo</label><br>
+    <input type="radio" name="option" id="option4" value="dogs">
+    <label for="option4">Presunto e queijo</label><br>
+    <!-- Add more options as needed -->
+  </form>
+</div>
+  <footer>
+    <p class="p5">Sobre a Cantina da Fran</p>
+    <p class="p6">Sobre a Cantina da Fran Na Cantina Fran, aroma de café no ar, sabores deliciosos para degustar. Um lugar acolhedor, sempre a vibrar, onde memórias doces vêm se encontrar.</p>
+    <p class="p7">Nós</p>
+    <li class="li" id="li1">Praça de alimentação</li>
+    <li class="li" id="li2">do SENAI Italo Bolonha - ITU/SP</li>
+    <li class="li" id="li3">11 4602-3266</li>
+    <li class="li" id="li4">11 4009-2443</li>
+    <li class="li" id="li5">11 98998-7585</li>
+    <img src="imagens/logo2.png" class="logo_footer">
+</footer>
+
+
+    
+    </body>
+    
+    <script>
+      document.querySelector('.navbar-icon button').addEventListener('click', function() {
+        document.querySelector('.navbar').classList.toggle('open')
+      });
+    </script>
+
+
+</html>
